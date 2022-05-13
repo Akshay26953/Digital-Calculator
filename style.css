@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 223, 247);
+}
+
+/* To adjust heading and input box at center */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* To adjust table at center */
+table {
+    margin: auto;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid #643797;
+    background-color: rgb(241, 240, 240);
+    margin-top: 10px;
+    padding: 10px;
+    text-align: right;
+    font-family: 'Changa', sans-serif;
+    font-size: 40px;
+    color: #643797;
+    height: 40px;
+    width: 320px;
+}
+
+button {
+    border-radius: 15px;
+    border: 1px solid #643797;
+    /* border: none; */
+    font-size: 30px;
+    color: #643797;
+    font-family: 'Changa', sans-serif;
+    background: #dfd1f0;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+}
+
+button:hover {
+    background: #c5a3ec;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200 px;
+    font-size: 15px;
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 12;
+    top: 168px ;
+    left: 850px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+h1 {
+    font-size: 40px;
+    color: #643797;
+    font-family: 'Righteous', cursive;
+}
+
+footer {
+    justify-content: center;
+    margin: 15px;
+    font-size: 17px;
+    color: #421e6b;
+    font-family: 'Righteous', cursive;
+}
