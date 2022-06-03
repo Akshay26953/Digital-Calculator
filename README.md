@@ -1,2 +1,1 @@
-# Digital-Calculator
-HTML, CSS, JS
+This project include HTML, CSS and Vanilla Javascript.
